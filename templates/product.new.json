@@ -2,8 +2,8 @@
   "sections": {
     "main": {
       "type": "main-test-product"
- },
-    
     }
   },
+
   "order": [ "main" ]
+}
