@@ -2,19 +2,19 @@
 <img src="{{product.featured_image | img_url: 'medium'}}" />
 
 {%  if section.settings.show_reviews %}  
-<h4>
-  *****
-</h4>
+  <h4>
+    *****
+  </h4>
 {% endif %}
 
-
+<h4> {{ section.settings.tax_notice }}</h4>
 
 {%  schema  %}
   {
     "name": "Section name",
     "settings": [
       {
-        "id": "tax notice",
+        "id": "tax_notice",
         "type": "text",
         "label": "tax notice"
       }
