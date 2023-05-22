@@ -1,5 +1,6 @@
 <h2>{{ product.title }}</h2>
-<img src="{{product.featured_image | img_url: 'medium'}}" />
+
+<img src="{{ product.featured_image | img_url: '400px'}}" />
 
 {% if section.settings.show_reviews %}
   <h4>
@@ -13,8 +14,7 @@
 {% schema %}
   {
     "name": "main text product",
-    "settings": [
-      {
+    "settings": [{
         "id": "tax_notice",
         "type": "text",
         "label": "tax notice"
