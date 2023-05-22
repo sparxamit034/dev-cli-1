@@ -1,9 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "main-test-product"
+      "type": "main-test-product",
+      "settings": {
+        "tax_notice": "",
+        "show_review": true
+      }
     }
   },
-
-  "order": [ "main" ]
+  "order": [
+    "main"
+  ]
 }
