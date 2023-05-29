@@ -3,11 +3,9 @@
 <img src="{{ product.featured_image | img_url: '400px'}}" />
 
 {% if section.settings.show_reviews %}
-
   <h4>
-    *****
+    reviews
   </h4>
-
 {% endif %}
 
 
@@ -26,7 +24,7 @@
       }, {
         "id": "show_review",
         "type": "checkbox",
-        "label": "display Review"
+        "label": "show Review"
       }
     ]
   }
