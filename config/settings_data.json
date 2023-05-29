@@ -128,7 +128,7 @@
         "type": "main-test-product",
         "settings": {
           "tax_notice": "show notice for old tax",
-          "show_review": false
+          "show_review": true
         }
       }
     },
