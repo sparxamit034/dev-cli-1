@@ -2,11 +2,11 @@
 
 <img src="{{ product.featured_image | img_url: '400px'}}" />
 
-
-<h4>
-  reviews
-</h4>
-{% if section.settings.show_reviews %}{% endif %}
+{% if section.settings.show_review %}
+  <h4>
+    reviews
+  </h4>
+{% endif %}
 
 
 <h5>
