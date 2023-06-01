@@ -10,8 +10,8 @@
     "second": {
       "type": "main-test-product",
       "settings": {
-        "tax_notice": "",
-        "show_review": false
+        "tax_notice": "tax not included",
+        "show_review": true
       }
     }
   },
