@@ -2,9 +2,12 @@
   "sections": {
     "main": {
       "type": "main-test-product"
+    },
+    "second": {
+      "type": "main-test-product"
     }
   },
   "order": [
-    "main"
+    "main", "second"
   ]
 }
