@@ -127,7 +127,7 @@
       "main-test-product": {
         "type": "main-test-product",
         "settings": {
-          "tax_notice": "show notice for old tax",
+          "tax_notice": "tax included",
           "show_review": true
         }
       }
