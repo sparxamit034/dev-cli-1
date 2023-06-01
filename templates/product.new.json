@@ -2,10 +2,6 @@
   "sections": {
     "main": {
       "type": "main-test-product",
-      "settings": {
-        "tax_notice": "Show notice for tax",
-        "show_review": true
-      }
     }
   },
   "order": [
