@@ -127,7 +127,7 @@
       "main-test-product": {
         "type": "main-test-product",
         "settings": {
-          "tax_notice": "tax included",
+          "tax_notice": "tax  not included",
           "show_review": true
         }
       }
