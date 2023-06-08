@@ -197,7 +197,7 @@
         "template--19068244001042__4d3d5206-1da3-4678-aa97-c9ccc4c3092e-168622065696cfdfc5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ product.metafields.custom.designer.value.description | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         },
