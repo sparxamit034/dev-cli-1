@@ -204,7 +204,7 @@
         "template--19068244001042__4d3d5206-1da3-4678-aa97-c9ccc4c3092e-168622065696cfdfc5-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "{{ product.metafields.custom.designer.value.name.value }}",
             "button_link": ""
           }
         }
@@ -215,6 +215,7 @@
         "template--19068244001042__4d3d5206-1da3-4678-aa97-c9ccc4c3092e-168622065696cfdfc5-2"
       ],
       "settings": {
+        "image": "{{ product.metafields.custom.designer.value.photo.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
